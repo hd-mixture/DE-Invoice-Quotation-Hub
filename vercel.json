@@ -2,11 +2,7 @@
   "crons": [
     {
       "path": "/api/send-push",
-      "schedule": "30 3,13 * * *"
-    },
-    {
-      "path": "/api/send-push",
-      "schedule": "0 7 * * *"
+      "schedule": "0 4 * * *"
     }
   ]
 }
