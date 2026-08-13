@@ -291,10 +291,15 @@ export const Login: React.FC = () => {
 
           {/* Custom Footer */}
           <div className="w-full max-w-[440px] mx-auto lg:ml-auto lg:mr-0 mt-6 flex flex-col items-center gap-1.5 text-center">
-            <p className="text-[10px] text-slate-400 dark:text-slate-500 font-medium leading-relaxed">
-              &copy; 2026 Darshan Enterprises. All rights reserved.<br />
+            <p className="text-[10px] text-slate-400 dark:text-slate-500 font-medium leading-relaxed mb-1">
+              &copy; {new Date().getFullYear()} Darshan Enterprises. All rights reserved.<br />
               Authorized personnel only.
             </p>
+            <div className="flex items-center justify-center gap-3 text-[10px] text-slate-400 dark:text-slate-500 font-medium mb-1">
+              <a href="/privacy-policy" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors underline decoration-slate-300 dark:decoration-slate-600 underline-offset-2">Privacy Policy</a>
+              <span>|</span>
+              <a href="/terms-of-service" className="hover:text-slate-600 dark:hover:text-slate-300 transition-colors underline decoration-slate-300 dark:decoration-slate-600 underline-offset-2">Terms of Service</a>
+            </div>
             <div className="text-[12px] font-semibold text-slate-500 dark:text-slate-400 flex items-center justify-center gap-2 mt-1">
               Developed by
               <div className="relative group inline-block">
