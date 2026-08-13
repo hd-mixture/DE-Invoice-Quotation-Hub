@@ -1,0 +1,37 @@
+{
+  "name": "DARSHAN ENTERPRISES - Invoicing & Quotation Hub",
+  "short_name": "DE Invoicing & Quotation Hub",
+  "description": "Generate, manage, and sync professional quotation PDFs directly to Google Drive.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#F8FAFC",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/Graphic Assets/DE_3D_Square_Logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Graphic Assets/DE_3D_Square_Logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Graphic Assets/DE_3D_Circle_Logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Graphic Assets/DE_3D_Circle_Logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
